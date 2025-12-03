@@ -8,12 +8,12 @@
                     <div class="flex flex-col lg:flex-row items-center justify-between gap-4">
                         <div class="flex items-center gap-4">
                             <span class="bg-white text-black px-6 py-2 rounded-xl font-bold text-sm lg:text-base whitespace-nowrap">
-                                CT (Campus Today)
+                                Study Social
                             </span>
                             <div class="h-8 w-px bg-gray-600 hidden lg:block"></div>
                         </div>
                         <p class="text-white text-center lg:text-left text-sm lg:text-base font-medium flex-1">
-                            Makes Education easier and more comfortable for Higher Institution students with Campus Today
+                            A Twitter-like platform where students share notes, ask questions, and study together efficiently
                         </p>
                         <i class="bi bi-arrow-right text-white text-2xl hidden lg:block"></i>
                     </div>
@@ -23,74 +23,83 @@
             <!-- Main Headline -->
             <div class="text-center mb-12 lg:mb-16 space-y-6">
                 <h1 class="text-4xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
-                    A campus platform that works like a
+                    Social learning made
                     <span class="block mt-4">
-                        <span class="bg-gradient-to-r from-gray-900 to-gray-700 text-transparent bg-clip-text hover:from-pink-600 hover:to-pink-500 transition-all duration-300 inline-block hover:scale-105">
-                            Community
+                        <span class="bg-gradient-to-r from-gray-900 to-black text-transparent bg-clip-text hover:from-gray-600 hover:to-gray-400 transition-all duration-300 inline-block hover:scale-105">
+                            Simple & Effective
                         </span>
                     </span>
                 </h1>
                 
                 <p class="text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed font-light">
-                    Campus Today helps students stay updated, access resources, and connect seamlessly.
-                    <span class="block mt-2">From class schedules to events.</span>
+                    Share study notes, connect with classmates, and access lecturer content all in one social platform.
+                    <span class="block mt-2">Study together, learn better.</span>
                 </p>
             </div>
 
             <!-- CTA Buttons -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-20">
                 <router-link to="/signup">
-                    <button class="group relative bg-black text-white px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-pink-600 hover:to-pink-500 w-full sm:w-auto">
+                    <button class="group relative bg-black text-white px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-gray-700 hover:to-black w-full sm:w-auto">
                         Get Started
                         <i class="bi bi-arrow-right ml-2 group-hover:translate-x-1 transition-transform inline-block"></i>
                     </button>
                 </router-link>
 
                 <router-link to="/signup">
-                    <button class="bg-white border-2 border-black text-black px-8 py-4 rounded-2xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-pink-500 hover:text-pink-500 w-full sm:w-auto">
+                    <button class="bg-white border-2 border-black text-black px-8 py-4 rounded-2xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:bg-black hover:text-white w-full sm:w-auto">
                         Learn More
                     </button>
                 </router-link>
             </div>
         </div>
 
-        <!-- Campus Blocks Section -->
-        <div id="campus" class="bg-white py-20 lg:py-32">
+        <!-- How It Works Section -->
+        <div id="how" class="bg-white py-20 lg:py-32">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-4xl lg:text-5xl font-bold text-center mb-4 text-gray-900">
-                    Campus Blocks
+                    How It Works
                 </h2>
-                <p class="text-center text-gray-600 text-lg mb-16">Explore our beautiful campus facilities</p>
+                <p class="text-center text-gray-600 text-lg mb-16">Everything built for social learning</p>
                 
                 <div class="carousel-container overflow-hidden w-full rounded-3xl">
                     <div class="carousel-track flex">
-                        <!-- Original items -->
+                        <!-- Feature 1 -->
                         <div class="flex-shrink-0 px-4">
-                            <div class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
-                                <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" 
-                                     loading="lazy"
-                                     src="@/assets/images/olabi1.png" 
-                                     alt="an oou picture">
+                            <div class="group relative bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
+                                <i class="bi bi-file-earmark-text text-5xl text-black mb-4 absolute top-8 left-8"></i>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 absolute top-24 left-8 right-8">Share Study Notes</h3>
+                                <p class="text-gray-600 absolute bottom-8 left-8 right-8">Post and share your notes with the entire community instantly.</p>
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                         </div>
 
+                        <!-- Feature 2 -->
                         <div class="flex-shrink-0 px-4">
-                            <div class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
-                                <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" 
-                                     loading="lazy"
-                                     src="@/assets/images/olabi2.png" 
-                                     alt="the second oou pic">
+                            <div class="group relative bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
+                                <i class="bi bi-chat-left-text text-5xl text-black mb-4 absolute top-8 left-8"></i>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 absolute top-24 left-8 right-8">Ask & Answer</h3>
+                                <p class="text-gray-600 absolute bottom-8 left-8 right-8">Post questions and get answers from peers and lecturers in real-time.</p>
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                         </div>
 
+                        <!-- Feature 3 -->
                         <div class="flex-shrink-0 px-4">
-                            <div class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
-                                <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" 
-                                     loading="lazy"
-                                     src="@/assets/images/olabi3.png" 
-                                     alt="the third oou pic">
+                            <div class="group relative bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
+                                <i class="bi bi-book text-5xl text-black mb-4 absolute top-8 left-8"></i>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 absolute top-24 left-8 right-8">Lecturer Content</h3>
+                                <p class="text-gray-600 absolute bottom-8 left-8 right-8">Access lectures, notes, and course materials directly from instructors.</p>
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            </div>
+                        </div>
+
+                        <!-- Feature 4 -->
+                        <div class="flex-shrink-0 px-4">
+                            <div class="group relative bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
+                                <i class="bi bi-heart text-5xl text-black mb-4 absolute top-8 left-8"></i>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 absolute top-24 left-8 right-8">Like & Engage</h3>
+                                <p class="text-gray-600 absolute bottom-8 left-8 right-8">Like, comment, and share helpful content with your study community.</p>
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                         </div>
@@ -98,30 +107,36 @@
                         <!-- Duplicate items for seamless loop -->
                         <div class="flex-shrink-0 px-4">
                             <div class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
-                                <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" 
-                                     loading="lazy"
-                                     src="@/assets/images/olabi1.png" 
-                                     alt="an oou picture">
+                                <i class="bi bi-file-earmark-text text-5xl text-black mb-4 absolute top-8 left-8"></i>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 absolute top-24 left-8 right-8">Share Study Notes</h3>
+                                <p class="text-gray-600 absolute bottom-8 left-8 right-8">Post and share your notes with the entire community instantly.</p>
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                         </div>
 
                         <div class="flex-shrink-0 px-4">
                             <div class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
-                                <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" 
-                                     loading="lazy"
-                                     src="@/assets/images/olabi2.png" 
-                                     alt="the second oou pic">
+                                <i class="bi bi-chat-left-text text-5xl text-black mb-4 absolute top-8 left-8"></i>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 absolute top-24 left-8 right-8">Ask & Answer</h3>
+                                <p class="text-gray-600 absolute bottom-8 left-8 right-8">Post questions and get answers from peers and lecturers in real-time.</p>
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                         </div>
 
                         <div class="flex-shrink-0 px-4">
                             <div class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
-                                <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" 
-                                     loading="lazy"
-                                     src="@/assets/images/olabi3.png" 
-                                     alt="the third oou pic">
+                                <i class="bi bi-book text-5xl text-black mb-4 absolute top-8 left-8"></i>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 absolute top-24 left-8 right-8">Lecturer Content</h3>
+                                <p class="text-gray-600 absolute bottom-8 left-8 right-8">Access lectures, notes, and course materials directly from instructors.</p>
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            </div>
+                        </div>
+
+                        <div class="flex-shrink-0 px-4">
+                            <div class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 w-[350px] lg:w-[450px] h-[280px] lg:h-[320px] overflow-hidden">
+                                <i class="bi bi-heart text-5xl text-black mb-4 absolute top-8 left-8"></i>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3 absolute top-24 left-8 right-8">Like & Engage</h3>
+                                <p class="text-gray-600 absolute bottom-8 left-8 right-8">Like, comment, and share helpful content with your study community.</p>
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                         </div>
@@ -130,67 +145,48 @@
             </div>
         </div>
 
-        <!-- Important Figures Section -->
-        <div id="imp" class="bg-gradient-to-b from-gray-50 to-white py-20 lg:py-32">
+        <!-- For Students & Lecturers Section -->
+        <div id="users" class="bg-gradient-to-b from-gray-50 to-white py-20 lg:py-32">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-4xl lg:text-5xl font-bold text-center mb-4 text-gray-900">
-                    Leadership
+                    Built For Everyone
                 </h2>
-                <p class="text-center text-gray-600 text-lg mb-20">Meet the important figures of OOU</p>
+                <p class="text-center text-gray-600 text-lg mb-20">Whether you're a student or lecturer</p>
 
-                <!-- Vice Chancellor -->
+                <!-- For Students -->
                 <div class="mb-20 bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
                     <div class="grid lg:grid-cols-2 gap-0">
-                        <div class="relative h-80 lg:h-auto overflow-hidden">
-                            <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" 
-                                 loading="lazy" 
-                                 src="@/assets/images/chance1.png"
-                                 alt="OOU chancellor pic">
+                        <div class="relative h-80 lg:h-auto overflow-hidden bg-black flex items-center justify-center">
+                            <div class="text-center">
+                                <i class="bi bi-people text-8xl text-white mb-4"></i>
+                                <p class="text-white font-semibold text-lg">Students</p>
+                            </div>
                         </div>
                         <div class="p-8 lg:p-12 flex flex-col justify-center">
-                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Vice Chancellor</h3>
-                            <div class="w-20 h-1 bg-pink-500 mb-6"></div>
+                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">For Students</h3>
+                            <div class="w-20 h-1 bg-black mb-6"></div>
                             <p class="text-gray-700 leading-relaxed text-base lg:text-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nam recusandae earum quam magni iure eaque quos vel voluptas. Rerum, laborum ratione ipsa sequi architecto ut, blanditiis ea officia voluptatibus est natus ipsum. Aut consequatur ipsum laboriosam neque obcaecati voluptatibus.
+                                Share your study notes with peers, ask questions and get instant answers, access all lecturer content in one place, collaborate with classmates on assignments, and build a supportive study community.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Oba -->
-                <div class="mb-20 bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                    <div class="grid lg:grid-cols-2 gap-0">
-                        <div class="order-2 lg:order-1 p-8 lg:p-12 flex flex-col justify-center">
-                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Oba (Dr.) S.K. Adetona</h3>
-                            <div class="w-20 h-1 bg-pink-500 mb-6"></div>
-                            <p class="text-gray-700 leading-relaxed text-base lg:text-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste vero quae nesciunt et ex dicta. Possimus at asperiores sit sint dolorum? Ab corporis harum id voluptatibus animi labore beatae, atque quisquam laudantium ullam aspernatur vero blanditiis similique totam delectus.
-                            </p>
-                        </div>
-                        <div class="order-1 lg:order-2 relative h-80 lg:h-auto overflow-hidden">
-                            <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" 
-                                 loading="lazy" 
-                                 src="@/assets/images/oba2.png"
-                                 alt="OOU oba pic">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Director General -->
+                <!-- For Lecturers -->
                 <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
                     <div class="grid lg:grid-cols-2 gap-0">
-                        <div class="relative h-80 lg:h-auto overflow-hidden">
-                            <img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" 
-                                 loading="lazy" 
-                                 src="@/assets/images/vice3.png"
-                                 alt="OOU director pic">
-                        </div>
-                        <div class="p-8 lg:p-12 flex flex-col justify-center">
-                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Director General</h3>
-                            <div class="w-20 h-1 bg-pink-500 mb-6"></div>
+                        <div class="order-2 lg:order-1 p-8 lg:p-12 flex flex-col justify-center">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">For Lecturers</h3>
+                            <div class="w-20 h-1 bg-black mb-6"></div>
                             <p class="text-gray-700 leading-relaxed text-base lg:text-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium officia fuga mollitia harum, dignissimos distinctio aspernatur recusandae reiciendis debitis nam! Tempore consectetur, iure itaque dicta rerum odio harum, quisquam omnis architecto quo nihil officiis obcaecati suscipit laudantium officia.
+                                Upload lectures, notes, and course materials easily. Communicate with students in real-time. Answer student questions directly. Monitor student engagement and progress. Build a strong relationship with your class through an interactive social platform.
                             </p>
+                        </div>
+                        <div class="order-1 lg:order-2 relative h-80 lg:h-auto overflow-hidden bg-black flex items-center justify-center">
+                            <div class="text-center">
+                                <i class="bi bi-mortarboard text-8xl text-white mb-4"></i>
+                                <p class="text-white font-semibold text-lg">Lecturers</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -203,13 +199,13 @@
                 <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-gray-900">
                     Get In Touch
                 </h2>
-                <p class="text-gray-600 text-lg mb-12">Contact the developer</p>
+                <p class="text-gray-600 text-lg mb-12">Have questions? We'd love to hear from you</p>
                 
-                <a href="https://wa.me/2348137628419?text=Hello%20%F0%9F%91%8B%20i%20am%20.........%20by%20name%20and%20i%20saw%20your%20website"
+                <a href="https://wa.me/2348137628419?text=Hello%20%F0%9F%91%8B%20I%20have%20questions%20about%20Study%20Social"
                    target="_blank" 
                    rel="noopener noreferrer"
                    class="inline-block">
-                    <div class="group bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white px-12 py-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                    <div class="group bg-black hover:bg-gradient-to-r hover:from-gray-800 hover:to-black text-white px-12 py-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
                         <i class="bi bi-whatsapp text-5xl mb-2 group-hover:scale-110 transition-transform inline-block"></i>
                         <p class="font-semibold text-lg">Message on WhatsApp</p>
                     </div>
@@ -223,17 +219,17 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                     <!-- Contact Info -->
                     <div>
-                        <h3 class="text-2xl font-bold mb-6 text-white">Contact OOU</h3>
+                        <h3 class="text-2xl font-bold mb-6 text-white">Study Social</h3>
                         <div class="space-y-4">
                             <div class="flex items-start gap-3">
-                                <i class="bi bi-geo-alt-fill text-pink-500 text-xl mt-1 flex-shrink-0"></i>
+                                <i class="bi bi-geo-alt-fill text-black text-xl mt-1 flex-shrink-0"></i>
                                 <p class="text-gray-300 leading-relaxed">
-                                    Road 9, Olabisi Onabanjo University Main Campus, Ago-Iwoye, Ogun State, Nigeria.
+                                    Social learning platform connecting students and lecturers worldwide.
                                 </p>
                             </div>
                             <div class="flex items-center gap-3">
-                                <i class="bi bi-envelope-fill text-pink-500 text-xl flex-shrink-0"></i>
-                                <p class="text-gray-300">oskaigs@ooouagoiwoye.edu.ng</p>
+                                <i class="bi bi-envelope-fill text-black text-xl flex-shrink-0"></i>
+                                <p class="text-gray-300">support@studysocial.com</p>
                             </div>
                         </div>
                     </div>
@@ -244,11 +240,11 @@
                         <div class="bg-gray-800 rounded-2xl shadow-2xl overflow-hidden border border-gray-700">
                             <!-- Calendar Header -->
                             <div class="bg-gradient-to-r from-gray-700 to-gray-600 px-4 py-4 flex justify-between items-center">
-                                <button @click="previousMonth" class="text-white hover:text-pink-400 transition-colors p-2 hover:bg-gray-600 rounded-lg">
+                                <button @click="previousMonth" class="text-white hover:text-black transition-colors p-2 hover:bg-gray-600 rounded-lg">
                                     <i class="bi bi-chevron-left text-xl"></i>
                                 </button>
                                 <h4 class="text-white font-bold text-lg">{{ monthName }} {{ currentYear }}</h4>
-                                <button @click="nextMonth" class="text-white hover:text-pink-400 transition-colors p-2 hover:bg-gray-600 rounded-lg">
+                                <button @click="nextMonth" class="text-white hover:text-black transition-colors p-2 hover:bg-gray-600 rounded-lg">
                                     <i class="bi bi-chevron-right text-xl"></i>
                                 </button>
                             </div>
@@ -275,7 +271,7 @@
                         </div>
 
                         <!-- Selected Date Display -->
-                        <div v-if="selectedDate" class="mt-4 p-4 bg-gradient-to-r from-pink-500 to-pink-600 rounded-xl text-center shadow-lg">
+                        <div v-if="selectedDate" class="mt-4 p-4 bg-gradient-to-r from-black to-gray-800 rounded-xl text-center shadow-lg">
                             <p class="text-white font-semibold">{{ formatSelectedDate }}</p>
                         </div>
                     </div>
@@ -285,7 +281,7 @@
                         <h3 class="text-2xl font-bold mb-6 text-white">About</h3>
                         <p class="text-gray-300 leading-relaxed">
                             Copyright © 2025. All Rights Reserved.
-                            <span class="block mt-2 text-pink-400 font-semibold">Made by Ifedollars.</span>
+                            <span class="block mt-2 text-gray-400 font-semibold">Made by Ifedollars.</span>
                         </p>
                     </div>
                 </div>
@@ -295,7 +291,7 @@
             <div class="border-t border-gray-700">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
                     <p class="text-center text-gray-400 text-sm">
-                        Campus Today - Empowering Education
+                        Study Social - Social Learning Platform
                     </p>
                 </div>
             </div>
@@ -306,20 +302,17 @@
 <script setup>
 import { ref, computed } from 'vue'
 
-// Calendar reactive state
 const currentMonth = ref(new Date().getMonth())
 const currentYear = ref(new Date().getFullYear())
 const selectedDate = ref(null)
 const today = ref(new Date())
 
-// Static data
 const dayHeaders = ['M', 'T', 'W', 'T', 'F', 'S', 'S']
 const monthNames = [
     'January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'
 ]
 
-// Computed properties
 const monthName = computed(() => {
     return monthNames[currentMonth.value]
 })
@@ -362,7 +355,6 @@ const formatSelectedDate = computed(() => {
     return selectedDate.value.toLocaleDateString('en-US', options)
 })
 
-// Methods
 const previousMonth = () => {
     if (currentMonth.value === 0) {
         currentMonth.value = 11
@@ -401,11 +393,11 @@ const getDayClasses = (day) => {
     }
 
     if (day.isToday) {
-        classes.push('bg-gradient-to-br from-pink-500 to-pink-600 text-white font-bold shadow-lg')
+        classes.push('bg-gradient-to-br from-black to-gray-900 text-white font-bold shadow-lg')
     }
 
     if (day.isSelected && !day.isToday) {
-        classes.push('bg-gray-100 text-gray-900 font-semibold ring-2 ring-pink-500')
+        classes.push('bg-gray-100 text-gray-900 font-semibold ring-2 ring-black')
     }
 
     return classes.join(' ')
