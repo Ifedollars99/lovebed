@@ -5,18 +5,6 @@ const routes = [
     path: '/',
     component: () => import('../components/HomePage.vue')
   },
-  {
-    path: '/signup',
-    component: () => import('../views/SignUpPage.vue')
-  },
-  {
-    path: '/signin',
-    component: () => import('../views/SignInPage.vue')
-  },
-  {
-    path: '/mycamp',
-    component: () => import('../views/MycampPage.vue')
-  }
 ]
 
 const router = createRouter({
